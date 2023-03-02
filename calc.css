@@ -1,0 +1,38 @@
+body {
+  margin: 20px;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-image: linear-gradient(to top left, #367382 0%, #2ebf5a 100%);
+  color: #fff;
+  justify-content: space-around;
+}
+
+button {
+  background: rgb(10, 5, 10);
+  color: #fff;
+  border-radius: 32px;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 23px;
+  transition: all 0.2s;
+}
+
+#resultArea {
+  font-size: 3rem;
+  margin-left: 24px;
+}
+#resultSum {
+  font-size: 3rem;
+  margin-left: 24px;
+}
+
+.reset {
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="box">
+      <div class="box1">
+        Enter 10 numbers : <input type="text" class="inputNumber" /><br />
+        <button type="button" onclick="addAll()" value="Sum">Sum</button>
+
+        <p>
+          The result:<br />
+          <br />
+          Sum Of Numbers:<br />
+          <span id="resultSum"></span>
+        </p>
+      </div>
+
+      <div class="box2">
+        Length : <input type="text" id="firstNumber" /><br />
+        <br />
+        Width : <input type="text" id="secondNumber" /><br />
+        <button type="button" onclick="findArea()" value="findArea">
+          findArea
+        </button>
+        <p>
+          The result:<br />
+          <br />
+          Rectangle Area: <br />
+          <span id="resultArea"></span>
+        </p>
+      </div>
+
+      <button type="button" class="reset" onclick="resetAll()" value="resetAll">
+        resetAll
+      </button>
+    </div>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
